@@ -1,0 +1,8 @@
+# Binary
+tag
+
+# Claude Code local settings
+.claude/
+
+# Logs
+logs/
