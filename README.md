@@ -103,3 +103,9 @@ Each pin records:
 | `project` | string | Absolute project path |
 | `description` | string | Free-text note |
 | `pinned_at` | RFC 3339 timestamp | When the pin was created or last updated |
+
+## Claude Code skill
+
+The [`skill/SKILL.md`](skill/SKILL.md) file is a reference copy of the Claude Code skill that wraps this CLI. When installed as a Claude Code skill, typing `/tag` in a session automatically generates a description, finds the session ID from `~/.claude/history.jsonl`, and runs `tag add` — no manual copy-pasting required.
+
+The canonical skill lives in the [acrucetta-core](https://github.com/acrucetta/agent-stuff) plugin. This copy is here for reference only.
