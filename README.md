@@ -15,7 +15,7 @@ Bookmark Claude Code sessions so you can find and resume them later.
 ### Install
 
 ```sh
-go install github.com/andres-cw/tag@latest
+go install github.com/andresc-cw/tag@latest
 ```
 
 ### Tag your first session
